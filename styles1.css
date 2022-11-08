@@ -1,0 +1,258 @@
+.buyticket-page .showtimes .wrapper {
+    padding: 0 15px;
+}
+.buyticket-page:not(._touch) .showtimes .wrapper .container {
+    min-height: 600px;
+}
+.buyticket-page .showtimes .wrapper .container {
+    zoom: 1;
+    background: #fff;
+    padding: 0 0 15px;
+    position: relative;
+    min-height: 350px;
+}
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    outline: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.buyticket-page .showtimes .wrapper .container:after, .buyticket-page .showtimes .wrapper .container:before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+/*attritube containet*/
+.attributes-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    cursor: default;
+    border-bottom: 1px solid #f2f2f2;
+}
+.offer-details-container.legends-section {
+    margin-bottom: 0;
+}
+.offer-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-left: -12px;
+    cursor: default;
+}
+.attributes-container .legends-container {
+    display: flex;
+}
+.attributes-container .legends-container .showtimes-legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.attributes-container .legends-container .showtimes-legend .legend-icon {
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #4abd5d;
+    margin-right: 8px;
+}
+
+.attributes-container .legends-container .showtimes-legend .legend-text {
+    color: #717171;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.attributes-container .legends-container .showtimes-legend .legend-icon.fast {
+    background-color: #f60;
+}
+ul {
+    list-style: none;
+}
+.attributes-container .legends-container .showtimes-legend .__subtitle {
+    color: #00f929;
+    margin-right: 8px;
+}
+.__subtitle {
+    position: relative;
+    border: 0.8px solid #4abd5d;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    height: 12px;
+    justify-content: center;
+    display: flex;
+    padding: 1px 1px 0;
+    align-items: center;
+    width: 22px;
+}
+.__subtitle:after, .__subtitle:before {
+    top: 101%;
+    left: 70%;
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+/*listing info*/
+.wrapper .container ul .list .listing-info .details .__name {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+.buyticket-page .showtimes .wrapper .container ul .list .listing-info .details .__name .__title {
+    display: flex;
+}
+.buyticket-page .showtimes .wrapper .container ul .list .listing-info .details .__name a {
+
+    width: 220px;
+    font-weight: 700;
+    color: #333;
+    float: left;
+}
+.listing-info .info-section {
+    display: flex;
+    margin-left: 1px;
+    float: right;
+    cursor: pointer;
+}
+.listing-info .info-section .venue-info-icon {
+    width: 16px;
+    height: 16px;
+}
+.listing-info .info-section .venue-info-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    margin-left: 4px;
+}
+ .wrapper .container ul .list .listing-info .details .__name .__title {
+    display: flex;
+}
+.wrapper .container ul .list>div:not(.payment-options-text) {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+} 
+/*timming*/
+.showtime-pill-container {
+    display: flex;
+    float: right;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 8px;
+    width: calc(100% / 3 - 16px);
+    max-width: 110px;
+}
+.showtime-pill-container .showtime-pill {
+    border: 1px solid #999;
+    color: #4abd5d;
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.showtime-pill-container .showtime-pill .__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2px;
+    height: 14px;
+}
+.showtime-pill-container .showtime-pill .__details .__text {
+    margin: 0 auto;
+}
+.showtime-pill-container._filling .showtime-pill {
+    color: #f60;
+}
+.wrapper .container ul .list:after, .buyticket-page .showtimes .wrapper .container ul .list:before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.wrapper .container ul .list:after {
+    clear: both;
+}
+.venue-flags {
+  
+    float: left;
+    margin-bottom: 10;
+    padding: 5px 0 0;
+    margin-left: 5px;
+}
+.venue-flags .gold-icon {
+    
+    position: relative;
+    width: 7px;
+    height: 7px;
+    background: #ffc610;
+    border-radius: 50%;
+}
+.venue-flags .venue-flags-details {
+    margin: 0 8px;
+    color: #6c6c6c;
+}
+[class*=icon] {
+    display: inline-block;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    outline: 0;
+}
+.wrapper .container ul  .listing-info{
+    
+    display: flex;
+    padding: 10px 16px;
+    cursor: default;
+    
+}
+.wrapper .container ul .list {
+    zoom: 1;
+    border-bottom: 1px solid #eff1f3;
+    padding: 13px 20px;
+    display: flex;
+    flex-direction: row;
+}
